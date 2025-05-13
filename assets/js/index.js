@@ -225,8 +225,6 @@ document.addEventListener('DOMContentLoaded', () => {
   textarea.addEventListener("blur", () => handleBlur(textarea));
 
 
- 
-
   textarea.addEventListener("input", () => {
     charCount.textContent = `${textarea.value.length}/200`;
   });
